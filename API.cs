@@ -29,6 +29,7 @@ public class QuoteAPI
             {
                 Console.WriteLine("{0}", d.q);
                 Console.WriteLine("- {0}", d.a);
+                Console.WriteLine();
             }
         }
         else Console.WriteLine("{0} ({1})", (int)response.StatusCode, response.ReasonPhrase);
